@@ -1,4 +1,4 @@
-## Installation of SQL Server | Azure Data Studio in UBUNTY 20.04
+## Installation of SQL Server | Azure Data Studio in Ubuntu 20.04
 # SQL_DW_Project | SQL server & Azure Data Studio (SSMS is not available for Ubuntu) installation guide and steps 
 
 ## Step 01: Install SQL server in Ubuntu 20.04 
