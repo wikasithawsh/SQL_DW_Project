@@ -44,6 +44,21 @@ SQL data Warehouse Project
 
 If is's working successfully , we can see below output 
 ![image](https://github.com/user-attachments/assets/00045311-041a-4053-90d9-e5272a7d1209)
+--------------------
+# Step 03: Install Azure Data Studio (Alternative to SSMS on Ubuntu) 
+  Since SSMS is Windows-only, we can use Azure Data Studio as a GUI alternative.
+
+## 3.1: Download Azure Data Studio
+        wget https://go.microsoft.com/fwlink/?linkid=2215355 -O azuredatastudio.deb
+
+## Error is occurred : 
+   ![image](https://github.com/user-attachments/assets/0e1faec2-8ca1-410f-b19a-371f8bcadae2)
+
+## Solution to fix the error: Install via Snap 
+![image](https://github.com/user-attachments/assets/ec1909b8-d8e3-4780-a894-7b83c612d418)
+
+## Note: We can't run Azure Data Studio via root, need to switch to another user, Azure Data Studio will be displayed as below 
+![image](https://github.com/user-attachments/assets/6daa2b7d-73be-4964-9e03-ece1a58f83eb)
 
 
         
