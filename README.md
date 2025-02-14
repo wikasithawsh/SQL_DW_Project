@@ -24,3 +24,6 @@ SQL data Warehouse Project
     
 ## 5: Verify SQL Server is Running
         systemctl status mssql-server
+-------------------------------------------------
+## Database & Datawarehouse layers creation (Bronze, silver & gold layers)
+![image](https://github.com/user-attachments/assets/a0f74185-d461-4bfe-a17e-c7025093b01a)
