@@ -1,29 +1,28 @@
 ## Installation 
 # SQL_DW_Project | SQL server & SSMS install guide and steps 
-SQL data Warehouse Project 
 
-## Install SQL server in Ubuntu 20.04 
+## Step 01: Install SQL server in Ubuntu 20.04 
 
 
-1:Add the Microsoft SQL Server Repository
+## 1.1:Add the Microsoft SQL Server Repository
         wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
         sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)"
     
-## 2: Install SQL Server
+## 1.2: Install SQL Server
         sudo apt update
         sudo apt install -y mssql-server
     
-## 3: Run SQL Server Configuration
+## 1.3: Run SQL Server Configuration
         sudo /opt/mssql/bin/mssql-conf setup
 ![image](https://github.com/user-attachments/assets/098e5fe8-35e3-4f74-b136-a500c714cea5)
 
 
         
-## 4: Start & Enable SQL Server
+## 1.4: Start & Enable SQL Server
         sudo systemctl start mssql-server
         sudo systemctl enable mssql-server
     
-## 5: Verify SQL Server is Running
+## 1.5: Verify SQL Server is Running
         systemctl status mssql-server
 --------------------------------------------------
 
@@ -57,8 +56,17 @@ If is's working successfully , we can see below output
 ## Solution to fix the error: Install via Snap 
 ![image](https://github.com/user-attachments/assets/ec1909b8-d8e3-4780-a894-7b83c612d418)
 
-## Note: We can't run Azure Data Studio via root, need to switch to another user, Azure Data Studio will be displayed as below 
+## Note: We can't run Azure Data Studio via root, we need to switch to another user, Azure Data Studio will be displayed as below 
 ![image](https://github.com/user-attachments/assets/6daa2b7d-73be-4964-9e03-ece1a58f83eb)
 
+## 3.2: Launch Azure Data Studio
+## Note: Make sure to use the below parameters 
+        Server = localhost
+        Authentication = SQL Login
+        username= SA
+        password = The password which we used for My SQL server in Step 1 
 
-        
+![image](https://github.com/user-attachments/assets/911c090e-68bc-465d-b722-d6bb4d310e95)
+
+
+
