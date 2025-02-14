@@ -14,7 +14,8 @@ SQL data Warehouse Project
     
 ## 3: Run SQL Server Configuration
         sudo /opt/mssql/bin/mssql-conf setup
-![image](https://github.com/user-attachments/assets/43e3ffe1-e2b1-4d18-877b-2c0ea1208ac4)
+![image](https://github.com/user-attachments/assets/098e5fe8-35e3-4f74-b136-a500c714cea5)
+
 
         
 ## 4: Start & Enable SQL Server
